@@ -1,0 +1,440 @@
+/* *************** INITIALISATION *************** */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap'); /* font-family: 'Rajdhani', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'); /* font-family: 'Source Code Pro', monospace; */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+li{
+    list-style-type : none;
+}
+h1, h2, h3, h4{
+    font-family: 'Rajdhani', sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* *************** NAVBAR *************** */
+header nav{
+    overflow: hidden;
+    background-color: #ff264a;
+    width: 100%;
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+header #logo{
+    float: left;
+}
+header li a, header #logo img{
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    color: white;
+    font-size: 1em;
+}header li a:hover{
+    font-size: 1.1em;
+    transition: 0.2s ease-in-out;
+}
+/* *************** HOME *************** */
+#home #title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+#title h1{
+    font-size: 4em;
+    font-weight: 600 ;
+    padding: 30px;
+}
+#profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profil img{
+    width: 200px;
+    margin: 30px;
+}
+#profil h2{
+    margin: 30px;
+    font-size: 3.5em;
+    font-weight: 400;
+}
+/* *************** ABOUT ME *************** */
+.about{
+    background-color: #ff264a;
+    margin: 50px 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#me{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+#me h3{
+    padding: 10px;
+    font-size: 2em;
+}
+#me p{
+    width: 60% ;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+#me p a{
+    color: white;
+    font-weight: bold;
+}
+/* *************** CAREER *************** */
+.career{
+    margin: 30px 20% 50px 20%;
+    padding: 20px;
+
+    border: solid rgb(201, 201, 201) 1px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(150, 150, 150, 0.5);
+}
+.frise{
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+.career #logotop{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: #ff264a;
+    margin-bottom: 10px;
+}
+#leftpart1, #leftpart2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+#leftpart1{
+    grid-column-start:1;
+    grid-row-start:2;
+}
+#leftpart2{
+    grid-column-start:1;
+    grid-row-start:4;
+}
+#rightpart1{
+    grid-column-start:3;
+    grid-row-start:1;
+}
+#rightpart2{
+    grid-column-start:3;
+    grid-row-start:3;
+}
+.career span{
+    margin-top: 30px;
+}
+#trait{
+    height: 2px;
+    width: 70%;
+    margin: 0;
+    background-color: #000000;
+}
+#traitver{
+    grid-column-start:2;
+    grid-row-start:1;
+    grid-row-end: 5;
+    height: 100%;
+    width: 2px;
+    background-color: #000000;
+}
+.career span h4{
+    font-size: 2em;
+    padding: 0 5px;
+    color: #ff264a;
+}
+.career span p{
+    font-size: 1.2em;
+    padding: 5px;
+    width: 70%;
+}
+/* *************** PROJET *************** */
+.projects{
+    margin: 200px 0 0 0;
+}
+h3#lastpro{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 10px;
+}
+.containerpro{
+    display: grid;
+    margin: 30px 5%;
+    padding: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.window{
+    left: 50%;
+    margin: 20px;
+    border: solid rgb(201, 201, 201) 1px;
+    box-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
+    width: 440px;
+}
+#window{
+    display: flex;
+    justify-content: center;
+}
+#headerwindow{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    height: 25px;
+}
+#headerwindow #titleh4{
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorbutton{
+    display: flex;
+    align-items: center;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+#redbutton{
+    background-color: #ff5f57;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 3px 0 10px ;
+}
+#yellowbutton{
+    background-color: #ffbd2e;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 1px;
+}
+#greenbutton{
+    background-color: #28ca41;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+#siteweb{
+    height: 250px;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 80, 0);
+    padding: 0 15%;
+}
+figcaption:hover, #siteweb:hover{
+    display: flex;
+    color: rgb(255, 255, 255);
+    height: 250px;
+    background-color: rgba(0, 0, 58, 0.88);
+    font-size: 1em;
+    transition: 0.3s ease-in-out;
+}
+.window1 #siteweb{
+    background: url('./medias/Screen_clot_marsault.PNG') no-repeat 50% 50%;
+    background-size: auto 100%;
+    background-position: top;
+    transition: 0.3s ease-in-out;
+}
+.window1 #siteweb:hover{
+    background: url('./medias/Screen_clot_marsault_second.PNG') no-repeat 50% 50%;
+    background-size: auto 100%;
+    background-position: top;
+    transition: 0.3s ease-in-out;
+}
+.window2 #siteweb{
+    background: url('./medias/Screen_permaculture.PNG') no-repeat 50% 50%;
+    background-size: auto 100%;
+    background-position: top;
+    transition: 0.3s ease-in-out;
+}
+.window2 #siteweb:hover{
+    background: url('./medias/Screen_permaculture_second.PNG') no-repeat 50% 50%;
+    background-size: auto 100%;
+    background-position: top;
+    transition: 0.3s ease-in-out;
+}
+.window3 #siteweb{
+    background: url('./medias/screen_CV.PNG') no-repeat 50% 50%;
+    background-size: auto 100%;
+    background-position: top;
+    transition: 0.3s ease-in-out;
+}
+.window3 #siteweb:hover{
+    background: url('./medias/screen_CV_second.PNG') no-repeat 50% 50%;
+    background-size: auto 100%;
+    background-position: top;
+    transition: 0.3s ease-in-out;
+}
+.window4 #siteweb{
+    background: url('./medias/screen_wp.PNG') no-repeat 50% 50%;
+    background-size: 100% auto;
+    background-position: top;
+    transition: 0.3s ease-in-out;
+}
+.window4 #siteweb:hover{
+    background: url('./medias/screen_wp_second.PNG') no-repeat 50% 50%;
+    background-size: 100% auto;
+    background-position: top;
+    transition: 0.3s ease-in-out;
+}
+.window5 #siteweb,.window6 #siteweb{
+    background: url('./medias/comming_soon.jpg') no-repeat 50% 50%;
+    background-size: auto 100%;
+    background-position: top;
+}
+/* *************** CONTACT *************** */
+h3#contactme{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 10px;
+    margin: 50px 0;
+}
+.contact h4{
+    font-size: 2em;
+    padding: 10px;
+    padding-left: 0;
+    margin-left: 5%;
+}
+#mail strong{
+    font-size: 0.9em;
+}
+#mail p{
+    font-size: 1.2em;
+    padding: 10px;
+    padding-left: 0;
+    margin-left: 5%;
+}
+#mail button img{
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+}
+#mail button{
+    padding: 0;
+    background-color: #f0f0f0;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 1.2em;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    border-top: none;
+    border-left: none;
+    border-right: solid #d93025 3px;
+    border-bottom: solid #d93025 3px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(119, 119, 119);
+    transition: 0.2s;
+}
+#mail button:hover{
+    border-right: solid #d93025 1px;
+    border-bottom: solid #d93025 1px;
+    box-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+    transition: 0.2s;
+}
+#reseau #LI button{
+    padding: 0;
+    margin: 10px;
+    margin-left: 5%;
+    background-color: #0a66c2;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px rgb(151, 151, 151);
+    border-top: none;
+    border-left: none;
+    border-right: solid #07417c 3px;
+    border-bottom: solid #07417c 3px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(119, 119, 119);
+    transition: 0.2s;
+}
+#reseau #LI button:hover{
+    border-right: solid #07417c 1px;
+    border-bottom: solid #07417c 1px;
+    box-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+    transition: 0.2s;
+}
+#reseau #GH button{
+    padding: 0;
+    margin: 10px;
+    background-color: #24292f;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px rgb(151, 151, 151);
+    border-top: none;
+    border-left: none;
+    border-right: solid #0c0d0f 3px;
+    border-bottom: solid #0c0d0f 3px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(119, 119, 119);
+    transition: 0.2s;
+}
+#reseau #GH button:hover{
+    border-right: solid #0c0d0f 1px;
+    border-bottom: solid #0c0d0f 1px;
+    box-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+    transition: 0.2s;
+}
+#reseau i{
+    padding-right: 5px;
+}
+div#reseau{
+    margin-bottom: 50px;
+}
+/* *************** FOOTER *************** */
+#copyright{
+    height: 100px;
+    background-color: #ff264a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
