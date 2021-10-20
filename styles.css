@@ -49,6 +49,19 @@ header li a:hover{
     font-size: 1.3em;
     transition: 0.2s ease-in-out;
 }
+.BBTT button{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    z-index: 99;
+    width: 55px;
+    height: 55px;
+    background-color: #ff264a;
+    border: none;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 1);;
+}
 /* *************** HOME *************** */
 #home #title{
     display: flex;
@@ -67,7 +80,7 @@ header li a:hover{
     justify-content: center;
 }
 #profil img{
-    width: 200px;
+    width: 250px;
     margin: 30px;
 }
 #profil h2{
