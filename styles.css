@@ -34,7 +34,6 @@ header nav{
 }
 header li{
     float: right;
-
 }
 header #logo{
     float: left;
@@ -190,16 +189,15 @@ h3#lastpro{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
+.windowcontainer{
+    display: flex;
+    justify-content: center;
+}
 .window{
-    left: 50%;
     margin: 20px;
     border: solid rgb(201, 201, 201) 1px;
     box-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
     width: 440px;
-}
-#window{
-    display: flex;
-    justify-content: center;
 }
 #headerwindow{
     display: grid;
@@ -524,5 +522,60 @@ div#reseau{
     }
     header li a:hover{
         font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 540px){
+    header li a, header #logo img{
+        font-size: 0.9em;
+    }
+    header li a:hover{
+        font-size: 1em;
+    }
+    #profil{
+        flex-direction: column;
+    }
+    #profil h2{
+        font-size: 2.5em;
+    }
+    h3#lastpro{
+        font-size: 2em;
+    }
+    .window{
+        width: 350px;
+    }
+    #siteweb{
+        height: 200px;
+    }
+    figcaption{
+        font-size: 0.9em;
+    }
+    figcaption:hover, #siteweb:hover{
+        height: 200px;
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 430px){
+    header li a{
+        display: none;
+    }
+    header ul{
+        display: flex;
+        justify-content: center;
+    }
+    .window{
+        width: 300px;
+    }
+    #siteweb{
+        height: 150px;
+    }
+    figcaption{
+        font-size: 0.9em;
+    }
+    figcaption:hover, #siteweb:hover{
+        height: 150px;
+        font-size: 0.9em;
+    }
+    .window5 #siteweb,.window6 #siteweb{
+        background-size: 100% auto;
     }
 }
