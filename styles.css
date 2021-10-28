@@ -28,20 +28,22 @@ ul{
 }
 /* *************** NAVBAR *************** */
 header nav{
-    overflow: hidden;
     background-color: #ff264a;
     width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-header li{
-    float: right;
-}
-header #logo{
-    float: left;
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header li a, header #logo img{
     display: block;
     text-align: center;
-    padding: 18px 16px;
+    padding: 18px 35px;
     color: white;
     font-size: 1.2em;
 }
@@ -494,6 +496,9 @@ div#reseau{
     }
 }
 @media screen and (max-width: 820px){
+    header li a, header #logo img{
+        padding: 18px 20px;
+    }
     #title h1{
         font-size: 2.5em;
     }
@@ -520,6 +525,9 @@ div#reseau{
     }
 }
 @media screen and (max-width: 690px){
+    header li a, header #logo img{
+        padding: 18px 15px;
+    }
     #title h1{
         text-align: center;
     }
@@ -528,8 +536,6 @@ div#reseau{
     #mail button{
         margin-top: 10px;
     }
-}
-@media screen and (max-width: 610px){
     header li a, header #logo img{
         font-size: 1em;
     }
@@ -570,10 +576,6 @@ div#reseau{
 @media screen and (max-width: 430px){
     header li a{
         display: none;
-    }
-    header ul{
-        display: flex;
-        justify-content: center;
     }
     .window{
         width: 300px;
