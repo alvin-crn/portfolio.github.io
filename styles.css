@@ -270,67 +270,44 @@ figcaption{
     color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
     padding: 0 15%;
+    transition: 0.4s ease-in-out;
+    height: 250px;
 }
 figcaption:hover, #siteweb:hover{
     display: flex;
-    color: rgb(255, 255, 255);
+    color: white;
     height: 250px;
-    background-color: rgba(0, 0, 58, 0.88);
+    background-color: rgb(0, 0, 80);
     font-size: 1em;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 .window1 #siteweb{
-    background: url('./medias/Screen_clot_marsault.PNG') no-repeat 50% 50%;
-    background-size: auto 100%;
-    background-position: top;
-    transition: 0.3s ease-in-out;
-}
-.window1 #siteweb:hover{
-    background: url('./medias/Screen_clot_marsault_second.PNG') no-repeat 50% 50%;
-    background-size: auto 100%;
-    background-position: top;
+    background: url('./medias/clos_marsault.png') no-repeat 50% 50%;
+    background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window2 #siteweb{
-    background: url('./medias/Screen_permaculture.PNG') no-repeat 50% 50%;
-    background-size: auto 100%;
-    background-position: top;
-    transition: 0.3s ease-in-out;
-}
-.window2 #siteweb:hover{
-    background: url('./medias/Screen_permaculture_second.PNG') no-repeat 50% 50%;
-    background-size: auto 100%;
-    background-position: top;
+    background: url('./medias/Permaculture.png') no-repeat 50% 50%;
+    background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window3 #siteweb{
-    background: url('./medias/screen_CV.PNG') no-repeat 50% 50%;
-    background-size: auto 100%;
-    background-position: top;
-    transition: 0.3s ease-in-out;
-}
-.window3 #siteweb:hover{
-    background: url('./medias/screen_CV_second.PNG') no-repeat 50% 50%;
-    background-size: auto 100%;
-    background-position: top;
+    background: url('./medias/CV.PNG') no-repeat 50% 50%;
+    background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window4 #siteweb{
-    background: url('./medias/screen_wp.PNG') no-repeat 50% 50%;
-    background-size: 100% auto;
-    background-position: top;
-    transition: 0.3s ease-in-out;
-}
-.window4 #siteweb:hover{
-    background: url('./medias/screen_wp_second.PNG') no-repeat 50% 50%;
-    background-size: 100% auto;
-    background-position: top;
+    background: url('./medias/Footassos.png') no-repeat 50% 50%;
+    background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window5 #siteweb,.window6 #siteweb{
     background: url('./medias/comming_soon.jpg') no-repeat 50% 50%;
-    background-size: auto 100%;
-    background-position: top;
+    background-size: 100% 100%;
+    transition: 0.3s ease-in-out;
+}
+#siteweb:hover{
+    background-size: 105% 105%;
 }
 /* *************** CONTACT *************** */
 h3#contactme{
