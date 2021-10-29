@@ -51,6 +51,10 @@ header li a:hover{
     font-size: 1.3em;
     transition: 0.2s ease-in-out;
 }
+header #logo img{
+    width: 40px;
+    height: 40px;
+}
 .BBTT button{
     position: fixed;
     bottom: 0;
@@ -264,7 +268,7 @@ figcaption{
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     color: rgba(0, 0, 0, 0);
-    background-color: rgba(0, 0, 80, 0);
+    background-color: rgba(0, 0, 0, 0);
     padding: 0 15%;
 }
 figcaption:hover, #siteweb:hover{
