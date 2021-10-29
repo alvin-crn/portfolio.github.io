@@ -287,17 +287,17 @@ figcaption:hover, #siteweb:hover{
     transition: 0.3s ease-in-out;
 }
 .window2 #siteweb{
-    background: url('./medias/permaculture.png') no-repeat 50% 50%;
+    background: url('./medias/permaculture_az.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window3 #siteweb{
-    background: url('./medias/cv.png') no-repeat 50% 50%;
+    background: url('./medias/cv_numerique.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window4 #siteweb{
-    background: url('./medias/footassos.png') no-repeat 50% 50%;
+    background: url('./medias/footassos_wp.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
@@ -544,13 +544,14 @@ div#reseau{
         width: 350px;
     }
     #siteweb{
-        height: 200px;
+        height: 199px;
     }
     figcaption{
         font-size: 0.9em;
+        height: 199px;
     }
     figcaption:hover, #siteweb:hover{
-        height: 200px;
+        height: 199px;
         font-size: 0.9em;
     }
 }
@@ -562,13 +563,14 @@ div#reseau{
         width: 300px;
     }
     #siteweb{
-        height: 150px;
+        height: 170px;
     }
     figcaption{
         font-size: 0.9em;
+        height: 170px;
     }
     figcaption:hover, #siteweb:hover{
-        height: 150px;
+        height: 170px;
         font-size: 0.9em;
     }
     .window5 #siteweb,.window6 #siteweb{
