@@ -287,17 +287,17 @@ figcaption:hover, #siteweb:hover{
     transition: 0.3s ease-in-out;
 }
 .window2 #siteweb{
-    background: url('./medias/Permaculture.png') no-repeat 50% 50%;
+    background: url('./medias/permaculture.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window3 #siteweb{
-    background: url('./medias/CV.PNG') no-repeat 50% 50%;
+    background: url('./medias/cv.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window4 #siteweb{
-    background: url('./medias/Footassos.png') no-repeat 50% 50%;
+    background: url('./medias/footassos.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
