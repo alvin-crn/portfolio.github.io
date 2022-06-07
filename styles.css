@@ -282,26 +282,31 @@ figcaption:hover, #siteweb:hover{
     font-size: 1em;
 }
 .window1 #siteweb{
-    background: url('./medias/clos_marsault.png') no-repeat 50% 50%;
+    background: url('./medias/brod_art.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
 .window2 #siteweb{
-    background: url('./medias/permaculture_az.png') no-repeat 50% 50%;
-    background-size: 100% 100%;
-    transition: 0.3s ease-in-out;
-}
-.window3 #siteweb{
     background: url('./medias/cv_numerique.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
+.window3 #siteweb{
+    background: url('./medias/clos_marsault.png') no-repeat 50% 50%;
+    background-size: 100% 100%;
+    transition: 0.3s ease-in-out;
+}
 .window4 #siteweb{
+    background: url('./medias/permaculture_az.png') no-repeat 50% 50%;
+    background-size: 100% 100%;
+    transition: 0.3s ease-in-out;
+}
+.window5 #siteweb{
     background: url('./medias/footassos_wp.png') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
 }
-.window5 #siteweb,.window6 #siteweb{
+.window6 #siteweb{
     background: url('./medias/comming_soon.jpg') no-repeat 50% 50%;
     background-size: 100% 100%;
     transition: 0.3s ease-in-out;
@@ -575,5 +580,9 @@ div#reseau{
     }
     .window5 #siteweb,.window6 #siteweb{
         background-size: 100% auto;
+    }
+    .career span p{
+        font-size: 0.8em;
+        width: 90%;
     }
 }
